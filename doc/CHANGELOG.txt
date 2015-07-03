@@ -1,0 +1,6 @@
+1.0.4 - BUGFIX: for function createContentElement (file: cm1/index.php):
+        inserted the following line after initiating TCEmain:
+				$tce->stripslashes_values=0;        
+1.0.3 - Added icons - Thanks to Netcreators for providing them!
+1.0.2 – Cleaned up the default values for tag rendering: <b> and <i> changed to <strong> and <em>. <tr> and <td> don't have their own classes anymore, use inherited CSS definitions instead.		
+1.0.0 – First public release

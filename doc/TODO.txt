@@ -1,0 +1,17 @@
+*****************
+TODO
+*****************
+- Clean up and implement tablestyle & P support -> equalize for OO & MSO
+
+- Support for WRITING back into the formats?
+- API for export of database records into Excel / Calc spreadsheet (could be used from many places within TYPO3 where data is exported!)
+- API for re-import of such a spreadsheet -> this would enable people to export data, edit in Calc/Excel and then re-import / syncronize with the database.
+- Configuration of allowed elements / tags, useful for importing into the RTE
+- browse function (show content on different pages)
+- CHECK: indexing?
+- IMAGE cObj configuration not only for MS Office -> Change image file creation function for OO
+- Make difference between internal and external links, option to define target for internal & external links
+- Internal Links of OO: Don't work if link target (href) contains special chars
+- Full UTF8 support (use class.t3lib_cs.php routines)
+
+-> Rewrite OpenOffice routines to have a common code structure for all office parsing routines

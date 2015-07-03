@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Kasper Skårhøj</Author>
+  <LastAuthor>Kasper Skårhøj</LastAuthor>
+  <Created>2003-08-06T23:48:06Z</Created>
+  <Company>Curby Soft Multimedia</Company>
+  <Version>11.4920</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="file:///C:\MSOCache\All%20Users\20000409-6000-11D3-8CFE-0150048383C9\"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15765</WindowHeight>
+  <WindowWidth>23835</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>60</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s22">
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Font x:Family="Swiss" ss:Size="16" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Font x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="12" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="129"/>
+   <Column ss:AutoFitWidth="0" ss:Width="58.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="60"/>
+   <Column ss:AutoFitWidth="0" ss:Width="58.5"/>
+   <Row ss:Height="20.25">
+    <Cell ss:Index="2" ss:StyleID="s24"><Data ss:Type="String">Expenses chart for the Paris stay:</Data></Cell>
+   </Row>
+   <Row ss:Index="3">
+    <Cell ss:Index="2" ss:StyleID="s22"><Data ss:Type="String">Expense:</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Kasper:</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Robert:</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Total:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Taxi from the Airport</Data></Cell>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:Index="5" ss:Formula="=SUM(RC[-2]:RC[-1])"><Data ss:Type="Number">56</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Food in Leader Price</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="Number">22.45</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-2]:RC[-1])"><Data ss:Type="Number">22.45</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Metro tickets</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="Number">2.1</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-2]:RC[-1])"><Data ss:Type="Number">2.4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Entrance at Tour Eiffel</Data></Cell>
+    <Cell ss:Index="4" ss:Formula="=2*3.1"><Data ss:Type="Number">6.2</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-2]:RC[-1])"><Data ss:Type="Number">6.2</Data></Cell>
+   </Row>
+   <Row ss:Index="11">
+    <Cell ss:Index="2" ss:StyleID="s22"><Data ss:Type="String">Total amounts</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=SUM(R[-7]C:R[-1]C)"><Data ss:Type="Number">56.3</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=SUM(R[-7]C:R[-1]C)"><Data ss:Type="Number">30.75</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=SUM(R[-7]C:R[-1]C)"><Data ss:Type="Number">87.050000000000011</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s25"><Data ss:Type="String">Difference</Data></Cell>
+    <Cell ss:Formula="=-R[-1]C+(R11C5/2)"><Data ss:Type="Number">-12.774999999999991</Data></Cell>
+    <Cell ss:Formula="=-R[-1]C+(R11C5/2)"><Data ss:Type="Number">12.775000000000006</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>11</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
