@@ -50,7 +50,7 @@ require_once(t3lib_extMgm::extPath('libunzipped').'class.tx_libunzipped.php');
  * Class for parsing Open Office documents for the 'rlmpofficeimport' extension.
  * 
  * @author	Robert Lemke <rl@robertlemke.com>
- * @author	Kasper Skårhøj <kasper@typo3.com>
+ * @author	Kasper SkÃ¥rhÃ¸j <kasper@typo3.com>
  */
 class tx_rlmpofficeimport_openoffice extends tx_rlmpofficeimport_xml {
 

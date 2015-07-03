@@ -25,7 +25,7 @@
  * Plugin 'General Office Displayer' for the 'rlmp_officeimport' extension.
  *
  * @author	Robert Lemke <rl@robertlemke.com>
- * @author	Kasper Skårhøj <kasper@typo3.com>
+ * @author	Kasper SkÃ¥rhÃ¸j <kasper@typo3.com>
  * @developed-at	Tour Eiffel, Paris
  */
 
@@ -37,7 +37,7 @@ require_once(t3lib_extMgm::extPath('rlmp_officeimport').'class.tx_rlmpofficeimpo
  * Plugin 'General Office Displayer' for the 'rlmp_officeimport' extension.
  * 
  * @author	Robert Lemke <rl@robertlemke.com>
- * @author	Kasper Skårhøj <kasper@typo3.com>
+ * @author	Kasper SkÃ¥rhÃ¸j <kasper@typo3.com>
  */
 class tx_rlmpofficeimport_pi1 extends tslib_pibase {
 

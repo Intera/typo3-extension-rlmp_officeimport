@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>Office Import Backend Module</description>
+        <type>module</type>
+        <csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="title">Import Office</label>
+            <label index="uploadformtitle">Upload office file to Import:</label>
+            <label index="doctype1">Upload a &lt;strong&gt;Word 2003&lt;/strong&gt; file in the &quot;.xml&quot; format.</label>
+            <label index="doctype1_1">You cannot upload &quot;.doc&quot; files!</label>
+            <label index="doctype2">Upload a &lt;strong&gt;Excel 2003&lt;/strong&gt; file in the &quot;.xml&quot; format.</label>
+            <label index="doctype2_1">You cannot upload &quot;.xls&quot; files!</label>
+            <label index="doctype3">Upload a &lt;strong&gt;Open Office Writer&lt;/strong&gt; file in the &quot;.sxw&quot; format.</label>
+            <label index="doctype4">Upload a &lt;strong&gt;Open Office Calc&lt;/strong&gt; file in the &quot;.sxc&quot; format.</label>
+            <label index="lbl_notice">Notice:</label>
+            <label index="upload">Upload</label>
+            <label index="imported_office_file">[IMPORTED OFFICE FILE]</label>
+            <label index="error_notwordfile">The uploaded file was not a valid Word 2003 XML file.</label>
+            <label index="error_notexcelfile">The uploaded file was not a valid Excel 2003 XML file.</label>
+            <label index="error_notfileuploaded">You did not upload a file.</label>
+            <label index="error_nocontentextracted">Sorry. No content could be extracted from the file you uploaded.</label>
+            <label index="error_fileoutsidetemp">For some mysterious reason the temporary file variable pointed to a file OUTSIDE the typo3temp/ folder - thus we cannot delete it!</label>
+            <label index="error_tempfileinuse">Temporary filename already in use...  </label>
+                      
+        </languageKey>
+        <languageKey index="de" type="array">
+            <label index="title">Office Import</label>
+            <label index="uploadformtitle">Zu importierende Datei hochladen:</label>
+            <label index="doctype1">Eine &lt;strong&gt;Word 2003&lt;/strong&gt; Datei im &quot;.xml&quot; Format hochladen.</label>
+            <label index="doctype1_1">Sie können keine &quot;.doc&quot; Dateien hochladen!</label>
+            <label index="doctype2">Eine &lt;strong&gt;Excel 2003&lt;/strong&gt; Datei im &quot;.xml&quot; Format hochladen.</label>
+            <label index="doctype2_1">Sie können keine &quot;.xls&quot; Dateien hochladen!</label>
+            <label index="doctype3">Eine &lt;strong&gt;Open Office Writer&lt;/strong&gt; Datei im &quot;.sxw&quot; Format hochladen.</label>
+            <label index="doctype4">Eine &lt;strong&gt;Open Office Calc&lt;/strong&gt; Datei im &quot;.sxc&quot; Format hochladen.</label>
+            <label index="lbl_notice">Hinweis:</label>
+            <label index="upload">Hochladen</label>
+            <label index="imported_office_file">[IMPORTIERTE OFFICE DATEI]</label>
+            <label index="error_nocontentextracted">Leider konnte aus der hochgeladenen Datei kein Inhalt extrahiert werden.</label>
+        </languageKey>
+        <languageKey index="hr" type="array">
+            <label index="title">Office Import</label>
+            <label index="doctype1">Pošalji (Upload) <strong>Word 2003</strong> datoteku u ".xml" formatu.</label>
+            <label index="doctype1_1">Ne možete importirati ".doc" datoteke!</label>
+            <label index="doctype2">Pošalji (Upload) <strong>Excel 2003</strong> datoteku u ".xml" formatu.</label>
+            <label index="doctype2_1">Ne možete importirati ".xls" datoteke!</label>
+            <label index="doctype3">Pošalji (Upload) <strong>Open Office Writer</strong> datoteku u  ".sxw" formatu.</label>
+            <label index="doctype4">Pošalji (Upload) <strong>Open Office Calc</strong> datoteku u ".sxc" format.</label>
+            <label index="lbl_notice">Napomena:</label>
+            <label index="upload">Slanje (Upload)</label>
+            <label index="imported_office_file">[IMPORTIRANA OFFICE DATOTEKA]</label>
+        </languageKey>
+    </data>
+</T3locallang>

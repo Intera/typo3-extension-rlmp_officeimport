@@ -45,7 +45,7 @@
  * Additionally some helper functions for office import in general are included.
  * 
  * @author	Robert Lemke <rl@robertlemke.com>
- * @author	Kasper Sk�rh�j <kasper@typo3.com>
+ * @author	Kasper Skårhøj <kasper@typo3.com>
  */
 class tx_rlmpofficeimport_xml {
 
@@ -167,8 +167,8 @@ class tx_rlmpofficeimport_xml {
 	 */
 	function pValue($v)	{
 		$v = str_replace(
-			array("“","”","’","–","…"),
-			array('"','"','�','�','...'),
+			array("â€œ","â€","â€™","â€“","â€¦"),
+			array('"','"','´','–','...'),
 		$v);
 		$v = htmlentities(utf8_decode($v));
 		return $v;

@@ -2,7 +2,7 @@
 /***************************************************************
 *  Copyright notice
 *  
-*  (c) 2003 Kasper Skårhøj (kasper@typo3.com)
+*  (c) 2003 Kasper SkÃ¥rhÃ¸j (kasper@typo3.com)
 *  All rights reserved
 *
 *  This script is part of the TYPO3 project. The TYPO3 project is 
@@ -24,13 +24,13 @@
 /** 
  * Addition of an item to the clickmenu
  *
- * @author	Kasper Skårhøj <kasper@typo3.com>
+ * @author	Kasper SkÃ¥rhÃ¸j <kasper@typo3.com>
  */
 
 
 
 /**
- * @author	Kasper Skårhøj <kasper@typo3.com>
+ * @author	Kasper SkÃ¥rhÃ¸j <kasper@typo3.com>
  */
 class tx_rlmpofficeimport_cm1 {
 
@@ -83,7 +83,7 @@ class tx_rlmpofficeimport_cm1 {
 				// Repeat this (below) for as many items you want to add!
 				// Remember to add entries in the localconf.php file for additional titles.
 			for($docType=1; $docType<=3; $docType++)	{
-				$url = t3lib_extMgm::extRelPath('rlmp_officeimport').'cm1/index.php?id='.$uid.'&doctype='.$docType;
+				$url = 'mod.php?M=xMOD_tx_rlmpofficeimport_cm1&id='.$uid.'&doctype='.$docType;
 				$localItems[] = $backRef->linkItem(
 					$GLOBALS['LANG']->getLLL('cm1_title'.$docType,$LL),
 					$backRef->excludeIcon('<img src="'.t3lib_extMgm::extRelPath('rlmp_officeimport').'cm1/cm_icon'.$docType.'.gif" width="16" height="16" border="0" align="top" alt="" />'),

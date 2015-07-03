@@ -119,10 +119,11 @@ class tx_rlmpofficeimport_msoffice2003 extends tx_rlmpofficeimport_xml {
 	 * @return	[string]		HTML content
 	 */
 	function wordTraverseSection($explodedSubsection)	{
-//debug ($explodedSubsection);
+//t3lib_div::debug($explodedSubsection);
 		foreach($explodedSubsection as $value)	{
 			$this->wraps = array ();	// clear previous wraps;
 			switch($value['tag'])	{
+				case 'W:BODY':
 				case 'WX:SUB-SECTION':
 					$content.=$this->wordTraverseSection($value['subTags']);
 				break;

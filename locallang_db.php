@@ -54,7 +54,7 @@ $LOCAL_LANG = Array (
 	),
 	'hr' => Array (
 		'tt_content.tx_rlmpofficeimport_office_file' => 'MS Office 2003 datoteka (Word ili Excel, u .xml formatu) ili Open Office Writer datoteka:',
-		'tt_content.list_type_pi1' => 'Opæi prikazivaè Office dokumenata',
+		'tt_content.list_type_pi1' => 'OpÃ¦i prikazivaÃ¨ Office dokumenata',
 	),
 	'hu' => Array (
 	),
